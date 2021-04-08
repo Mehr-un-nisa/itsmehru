@@ -2,21 +2,25 @@ body {
   background-image: url(../images/backgroundimagblackbox.jpg);
   background-size: cover;
   cursor: pointer;
-  font-family: Helvetica;
+  font-family: CircularStd-Book, merriweather, sans-serif;
   margin-top: 0px;
 }
-
-ul {
+.navBar {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
-  font-size: 21px;
   display: inline-block;
+  margin-top: 50px;
 }
+.navBar > :nth-child(2) {
+  margin-right: auto;
+}
+
 a {
   color: white;
+  font-size: 18px;
+  font-family: Helvetica;
   text-decoration: none;
-  justify-items: right;
+  padding: 10px;
 }
 
 img {
