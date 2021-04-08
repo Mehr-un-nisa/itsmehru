@@ -1,0 +1,44 @@
+body {
+  background-image: url(../images/backgroundimagblackbox.jpg);
+  background-size: cover;
+  cursor: pointer;
+  font-family: Helvetica;
+  margin-top: 0px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  font-size: 21px;
+  display: inline-block;
+}
+a {
+  color: white;
+  text-decoration: none;
+  justify-items: right;
+}
+
+img {
+  height: 300px;
+  width: 450px;
+  margin: 10px;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(0.9);
+}
+h1,
+moto {
+  font-size: 51px;
+  width: 600px;
+  transition: all 1s;
+  color: white;
+  margin-top: 120px;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+h1,
+moto:hover {
+  transform: scale(0.9);
+}
