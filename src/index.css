@@ -12,22 +12,30 @@ body {
   margin-right: 6px;
   gap: 30px;
 }
+
+.navbaricons {
+  shape-outside: round;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  color: white;
+}
+.navbaricons a {
+  color: white;
+}
+.navbaricons:hover {
+  background-color: rgb(117, 4, 93);
+}
 .navBar > :nth-child(1) {
   margin-right: auto;
 }
-
 a {
-  color: white;
-  font-size: 20px;
   text-decoration: none;
-  padding: 12px;
 }
-
 img {
   width: 100vh;
   height: 100vh;
 }
-
 .moto {
   font-size: 51px;
   width: 600px;
@@ -48,13 +56,16 @@ moto:hover {
   text-align: left;
   width: 657px;
 }
-
+h1{
+  display: flex;
+  flex-wrap: wrap;
+}
 span {
   color: #61dbfb;
   font-size: 21px;
 }
 .unidefinition {
-  color: rgb(252, 237, 105);
+  color: rgb(117, 4, 93);
 }
 
 /* Slideshow container */
@@ -71,7 +82,6 @@ span {
 .mySlides {
   display: none;
 }
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -91,6 +101,7 @@ span {
 .prev {
   left: 1vh;
   border-radius: 3px 0 0 3px;
+ 
 }
 /* Position the "next button" to the right */
 .next {
@@ -101,7 +112,7 @@ span {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(90, 87, 87, 0.8);
+  background-color: rgb(117, 4, 93);
 }
 
 /* Fading animation */
@@ -133,9 +144,40 @@ span {
   width: 420px;
   height: 420px;
 }
-.navbaricons i {
-  font-size: 26px;
+.footericons {
+  shape-outside: round;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 8px;
 }
-.navbaricons :hover {
-  background-color: rgb(252, 237, 105);
+.footericons:hover {
+  background-color: rgb(117, 4, 93);
 }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-right: 6px;
+  gap: 20px;
+  color: white;
+  padding: 8px;
+}
+.footericons i {
+  color: white;
+}
+
+.imageicons {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin:-60px 0 0 -680px;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
