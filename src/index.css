@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/backgroundimagblackbox.jpg);
+  background-image: url(../src/backgroundimagblackbox.jpg);
   background-size: cover;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
