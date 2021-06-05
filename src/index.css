@@ -2,9 +2,10 @@ body {
   background-image: url(../images/backgroundimagblackbox.jpg);
   background-size: cover;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
+ font-family: 'Poppins', sans-serif;
+
 }
+
 .navBar {
   display: flex;
   flex-wrap: wrap;
@@ -35,14 +36,15 @@ a {
 img {
   width: 100vh;
   height: 100vh;
+
 }
 .moto {
   font-size: 51px;
+  font-weight: bold;
   width: 600px;
   transition: all 1s;
   color: white;
   margin-top: 110px;
-  font-weight: bold;
   border-bottom: 2px solid white;
 }
 
@@ -55,14 +57,6 @@ moto:hover {
   font-size: 11px;
   text-align: left;
   width: 657px;
-}
-h1{
-  display: flex;
-  flex-wrap: wrap;
-}
-span {
-  color: #61dbfb;
-  font-size: 21px;
 }
 .unidefinition {
   color: rgb(117, 4, 93);
@@ -103,19 +97,19 @@ span {
   border-radius: 3px 0 0 3px;
  
 }
-/* Position the "next button" to the right */
+
 .next {
   left: 60vh;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
   background-color: rgb(117, 4, 93);
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -140,15 +134,19 @@ span {
     opacity: 1;
   }
 }
+
+
 .illustrations {
   width: 420px;
   height: 420px;
 }
+
+
 .footericons {
   shape-outside: round;
   font-size: 20px;
-  font-family: sans-serif;
-  padding: 8px;
+  padding: 6px;
+  color: white;
 }
 .footericons:hover {
   background-color: rgb(117, 4, 93);
@@ -160,8 +158,7 @@ span {
   margin-top: 30px;
   margin-right: 6px;
   gap: 20px;
-  color: white;
-  padding: 8px;
+  /* color: white; */
 }
 .footericons i {
   color: white;
