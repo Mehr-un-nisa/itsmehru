@@ -2,8 +2,7 @@ body {
   background-image: url(../images/backgroundimagblackbox.jpg);
   background-size: cover;
   cursor: pointer;
- font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 .navBar {
@@ -36,7 +35,6 @@ a {
 img {
   width: 100vh;
   height: 100vh;
-
 }
 .moto {
   font-size: 51px;
@@ -95,7 +93,6 @@ moto:hover {
 .prev {
   left: 1vh;
   border-radius: 3px 0 0 3px;
- 
 }
 
 .next {
@@ -103,12 +100,10 @@ moto:hover {
   border-radius: 3px 0 0 3px;
 }
 
-
 .prev:hover,
 .next:hover {
   background-color: rgb(117, 4, 93);
 }
-
 
 .fade {
   -webkit-animation-name: fade;
@@ -135,12 +130,10 @@ moto:hover {
   }
 }
 
-
 .illustrations {
   width: 420px;
   height: 420px;
 }
-
 
 .footericons {
   shape-outside: round;
@@ -170,11 +163,24 @@ moto:hover {
   left: 50%;
   width: 120px;
   height: 120px;
-  margin:-60px 0 0 -680px;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  margin: -60px 0 0 -680px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
