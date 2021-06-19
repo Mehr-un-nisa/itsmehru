@@ -2,8 +2,25 @@ body {
   background-image: url(../src/backgroundimagblackbox.jpg);
   background-size: cover;
   cursor: pointer;
+
   font-family: "Poppins", sans-serif;
 }
+
+/* @media only screen and (max-width: 768px) {
+  [class*="slideshow-container"] {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .slideshow-container {
+    width: 91.66%;
+  }
+  .footer {
+    width: 100%;
+  }
+} */
 
 .navBar {
   display: flex;
@@ -20,11 +37,17 @@ body {
   padding: 10px;
   color: white;
 }
+.mainscreen {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 .navbaricons a {
   color: white;
 }
 .navbaricons:hover {
-  background-color: rgb(117, 4, 93);
+  color: rgb(246, 250, 36);
 }
 .navBar > :nth-child(1) {
   margin-right: auto;
@@ -57,7 +80,7 @@ moto:hover {
   width: 657px;
 }
 .unidefinition {
-  color: rgb(117, 4, 93);
+  color: rgb(246, 250, 36);
 }
 
 /* Slideshow container */
@@ -102,7 +125,7 @@ moto:hover {
 
 .prev:hover,
 .next:hover {
-  background-color: rgb(117, 4, 93);
+  color: rgb(246, 250, 36);
 }
 
 .fade {
@@ -142,7 +165,7 @@ moto:hover {
   color: white;
 }
 .footericons:hover {
-  background-color: rgb(117, 4, 93);
+  color: rgb(246, 250, 36);
 }
 
 .footer {
